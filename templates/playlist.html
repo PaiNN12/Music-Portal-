@@ -1,0 +1,133 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="/static/css/playlist.css">
+        <link rel="icon" type="icon" href="/static/page Img/music.jfif">
+        <title>Music Website-NEW RELEASE</title>
+    </head>
+    <body>
+        <header>
+            <div class="menu_side">
+                <h1>Playlist</h1>
+                <div class="menu_song">
+                    <li class="songItem">
+                        <span>01</span>
+                        <img src="img/1.jpg" alt="">
+                        <h5>On  My Way <br> <div class="subtitile">Alan Walker</div>
+                        </h5>
+                        <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>02</span>
+                        <img  src="img/2.jpg" alt="">
+                        <h5>On  dss <br> <div class="subtitile">Alan </div>
+                        </h5>
+                        <i class="bi playlistPlay bi-play-circle-fill" id="2" ></i>
+                    </li>
+                    <li class="songItem">
+                        <span>03</span>
+                        <img src="img/3.jpg" alt="">
+                        <h5>On  My Way <br> <div class="subtitile">Alan Walker</div>
+                        </h5>
+                        <i class="bi playlistPlay bi-play-circle-fill" id="3"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>04</span>
+                        <img src="img/4.jpg" alt="">
+                        <h5>On  My Way <br> <div class="subtitile">Alan Walker</div>
+                        </h5>
+                        <i class="bi playlistPlay bi-play-circle-fill" id="4"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>05</span>
+                        <img src="img/5.jpg" alt="">
+                        <h5>On  My Way <br> <div class="subtitile">Alan Walker</div>
+                        </h5>
+                        <i class="bi playlistPlay bi-play-circle-fill" id="5"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>06</span>
+                        <img src="img/6.jpg" alt="">
+                        <h5>On  My Way <br> <div class="subtitile">Alan Walker</div>
+                        </h5>
+                        <i class="bi playlistPlay bi-play-circle-fill" id="6"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>07</span>
+                        <img src="img/7.jpg" alt="">
+                        <h5>On  My Way <br> <div class="subtitile">Alan Walker</div>
+                        </h5>
+                        <i class="bi playlistPlay bi-play-circle-fill" id="7"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>08</span>
+                        <img src="img/8.jpg" alt="">
+                        <h5>On  My Way <br> <div class="subtitile">Alan Walker</div>
+                        </h5>
+                        <i class="bi playlistPlay bi-play-circle-fill" id="8"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>09</span>
+                        <img src="img/8.jpg" alt="">
+                        <h5>On  My Way <br> <div class="subtitile">Alan Walker</div>
+                        </h5>
+                        <i class="bi playlistPlay bi-play-circle-fill" id="9"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>10</span>
+                        <img src="img/8.jpg" alt="">
+                        <h5>On  My Way <br> <div class="subtitile">Alan Walker</div>
+                        </h5>
+                        <i class="bi playlistPlay bi-play-circle-fill" id="10"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>11</span>
+                        <img src="img/8.jpg" alt="">
+                        <h5>On  My Way <br> <div class="subtitile">Alan Walker</div>
+                        </h5>
+                        <i class="bi playlistPlay bi-play-circle-fill" id="11"></i>
+                    </li>
+                    
+                </div>
+                
+            </div>
+
+           <div class="master_play">
+                <div class="wave" id="length">
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                </div>
+                <img src="/static/page Img/blankpage.png" alt="" id="poster_master_play">
+                <h5 id="title"> 
+                    <div class="subtitle"></div>
+                </h5>
+                <div class="icon">
+                    <i class="bi shuffle bi-music-note-beamed">next</i>
+                    <i class="bi bi-skip-start-fill" id="back"></i>
+                    <i class="bi bi-play-fill" id="Play"></i>
+                    <i class="bi bi-skip-end-fill" id="next"></i>
+                    <i class="bi bi-cloud-arrow-down"  id="download_music"></i>
+                    
+                </div>
+                <span id="currentStart">0:00</span>
+                <div class="bar">
+                    <input type="range"  id="seek" min="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot"></div>
+                </div>
+                <span id="currentEnd"></span>
+                <div class="vol">
+                    <i class="bi  bi-volume-up-fill" id="vol_icon"></i>
+                    <input type="range" min="0" max="100" id="vol">
+                    <div class="vol_bar"></div>
+                    <div class="dot" id="vol_dot"></div>
+                </div>
+            </div>
+        </header>
+        <script src="/static/playlist.js"></script>  
+    </body>
+</html>
